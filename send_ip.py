@@ -169,7 +169,7 @@ class DingDing(object):
 
 
 if __name__ == "__main__":
-	time.sleep(10)
+    time.sleep(10) #这个延时一定要加！等待树莓派开机连接网络！
     ip= get_ip_address()
     print(ip)
    # 下面的DingDing里面的参数为ding_token，在创建自定义机器人的时候就能获得
